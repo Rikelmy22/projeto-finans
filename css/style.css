@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+#home {
+    background: #ffc107;
+    color: #fff;
+}
+
+.box {
+    padding: 60px 0px;
+    border-bottom: 2px solid #e5e5e5;
+}
