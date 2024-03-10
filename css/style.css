@@ -9,3 +9,9 @@
     padding: 60px 0px;
     border-bottom: 2px solid #e5e5e5;
 }
+
+@media (min-width:320) and (max-width:480) {
+   form {
+    width: 100%;
+   }
+}
