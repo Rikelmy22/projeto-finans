@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+body, html {
+    width: 100vw;
+    height: 100vh;
+    overflow-x: none;
+}
+
 #home {
     background: #ffc107;
     color: #fff;
