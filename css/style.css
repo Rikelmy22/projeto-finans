@@ -1,9 +1,8 @@
 @charset "UTF-8";
 
-body, html {
+body {
     width: 100vw;
     height: 100vh;
-    overflow-x: none;
 }
 
 #home {
@@ -17,17 +16,17 @@ body, html {
 }
 
 /* E-small devices (small cell phones, 400px and up)*/
-@media (min-width:400px) and (max-width: 576px) {
+@media (min-width:360px) and (max-width: 576px) {
     #home h1 {
-        font-size: 1em;
+        font-size: o.3em;
     }
 
     #home p {
         font-size: 1em;
     }
 
-    form {
-        width: x-small;
+    form .input-group   {
+        width: 80%;
     }
 }
 
