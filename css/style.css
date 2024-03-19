@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-body {
+body, html {
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 #home {
@@ -17,26 +18,37 @@ body {
 
 /* E-small devices (small cell phones, 400px and up)*/
 @media (min-width:360px) and (max-width: 576px) {
-    #home h1 {
-        font-size: o.3em;
+    #Home .display-4 {
+        font-size: 2.2em;
     }
 
-    #home p {
-        font-size: 1em;
+    #Home p {
+        font-size: 0.8em;
     }
 
-    form .input-group   {
-        width: 80%;
+    form .input-group  {
+        font-size: 2em;
+        width: 100%;
     }
 }
 
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and  (max-width: 768px) {
+    #Home .display-4 {
+        font-size: 2.8em;
+    }
+
+    #Home p {
+        font-size: 1.1em;
+    }
 
  }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 992px) { 
+    #home h1 {
+        font-size: 0.3em;
+    }
 
 }
 
